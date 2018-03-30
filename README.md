@@ -59,7 +59,7 @@ Possibly, the following queries can be hit (for QnA Maker):
 2. What are some of Daenerys Targaryen's nicknames?
 3. Who is Lady Stoneheart?
 4. Lady Stoneheart?
-
+<br/>
 And, the following queries can be hit (for LUIS):
 1. What house does Arya belong to?
 2. What house does Tyrion belong to?
