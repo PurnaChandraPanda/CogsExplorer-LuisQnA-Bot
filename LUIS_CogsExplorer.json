@@ -1,0 +1,258 @@
+{
+  "luis_schema_version": "2.2.0",
+  "versionId": "0.1",
+  "name": "Cogs Explorer",
+  "desc": "This is my Cogs Explorer LUIS app.",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "None"
+    },
+    {
+      "name": "SearchAuthors"
+    },
+    {
+      "name": "SearchCharacters"
+    },
+    {
+      "name": "SearchHouses"
+    },
+    {
+      "name": "SearchSigils"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [
+    {
+      "name": "Character",
+      "subLists": [
+        {
+          "canonicalForm": "Arya",
+          "list": []
+        },
+        {
+          "canonicalForm": "Brian",
+          "list": []
+        },
+        {
+          "canonicalForm": "Sansa",
+          "list": []
+        },
+        {
+          "canonicalForm": "Jon",
+          "list": []
+        },
+        {
+          "canonicalForm": "Jaime",
+          "list": []
+        },
+        {
+          "canonicalForm": "Cersei",
+          "list": []
+        },
+        {
+          "canonicalForm": "Theon",
+          "list": []
+        },
+        {
+          "canonicalForm": "Jorah",
+          "list": []
+        },
+        {
+          "canonicalForm": "Tyrion",
+          "list": []
+        }
+      ]
+    },
+    {
+      "name": "House",
+      "subLists": [
+        {
+          "canonicalForm": "Stark",
+          "list": []
+        },
+        {
+          "canonicalForm": "Lannister",
+          "list": []
+        },
+        {
+          "canonicalForm": "Baratheon",
+          "list": []
+        },
+        {
+          "canonicalForm": "Greyjoy",
+          "list": []
+        },
+        {
+          "canonicalForm": "Martell",
+          "list": []
+        },
+        {
+          "canonicalForm": "tarley",
+          "list": []
+        },
+        {
+          "canonicalForm": "boulton",
+          "list": []
+        }
+      ]
+    },
+    {
+      "name": "myencyclopedia",
+      "subLists": [
+        {
+          "canonicalForm": "John Irving",
+          "list": []
+        },
+        {
+          "canonicalForm": "Kurt Vonnegut",
+          "list": []
+        },
+        {
+          "canonicalForm": "George R.R. Martin",
+          "list": []
+        },
+        {
+          "canonicalForm": "J.R.R. Token",
+          "list": []
+        }
+      ]
+    },
+    {
+      "name": "sigil",
+      "subLists": [
+        {
+          "canonicalForm": "direwolf",
+          "list": []
+        },
+        {
+          "canonicalForm": "flayed man",
+          "list": []
+        },
+        {
+          "canonicalForm": "bear",
+          "list": []
+        },
+        {
+          "canonicalForm": "lion",
+          "list": []
+        },
+        {
+          "canonicalForm": "three headed dragon",
+          "list": []
+        },
+        {
+          "canonicalForm": "stag",
+          "list": []
+        }
+      ]
+    }
+  ],
+  "regex_entities": [],
+  "bing_entities": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "how many books has john irving written?",
+      "intent": "SearchAuthors",
+      "entities": []
+    },
+    {
+      "text": "how many books has kurt vonnegut written?",
+      "intent": "SearchAuthors",
+      "entities": []
+    },
+    {
+      "text": "what are the books written by george r.r. martin?",
+      "intent": "SearchAuthors",
+      "entities": []
+    },
+    {
+      "text": "what are the books written by j.r.r. token?",
+      "intent": "SearchAuthors",
+      "entities": []
+    },
+    {
+      "text": "what house does arya belong to?",
+      "intent": "SearchCharacters",
+      "entities": []
+    },
+    {
+      "text": "what house does cersei belong to?",
+      "intent": "SearchCharacters",
+      "entities": []
+    },
+    {
+      "text": "what house does jorah belong to?",
+      "intent": "SearchCharacters",
+      "entities": []
+    },
+    {
+      "text": "what house does sansa belong to?",
+      "intent": "SearchCharacters",
+      "entities": []
+    },
+    {
+      "text": "what house does tyrion belong to?",
+      "intent": "SearchCharacters",
+      "entities": []
+    },
+    {
+      "text": "what is the sigil of house boulton?",
+      "intent": "SearchHouses",
+      "entities": []
+    },
+    {
+      "text": "what is the sigil of house greyjoy?",
+      "intent": "SearchHouses",
+      "entities": []
+    },
+    {
+      "text": "what is the sigil of house lannister?",
+      "intent": "SearchHouses",
+      "entities": []
+    },
+    {
+      "text": "what is the sigil of house martell?",
+      "intent": "SearchHouses",
+      "entities": []
+    },
+    {
+      "text": "what is the sigil of house stark?",
+      "intent": "SearchHouses",
+      "entities": []
+    },
+    {
+      "text": "which house is tyrion a member of?",
+      "intent": "SearchCharacters",
+      "entities": []
+    },
+    {
+      "text": "which sigil displays a flayed man?",
+      "intent": "SearchSigils",
+      "entities": []
+    },
+    {
+      "text": "which sigil shows a stag?",
+      "intent": "SearchSigils",
+      "entities": []
+    },
+    {
+      "text": "whose sigil displays a direwolf?",
+      "intent": "SearchSigils",
+      "entities": []
+    },
+    {
+      "text": "whose sigil displays a three headed dragon?",
+      "intent": "SearchSigils",
+      "entities": []
+    },
+    {
+      "text": "whose sigil shows a bear?",
+      "intent": "SearchSigils",
+      "entities": []
+    }
+  ]
+}
