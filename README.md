@@ -52,6 +52,7 @@ First, BOT would reach out to QnA Maker service. If answer is not satisfactory, 
         ..
 </pre>
 
+<p>
 Possibly, the following queries can be hit (for QnA Maker):
 <ol>
   <li>Who was known as the Beggar King?</li>
@@ -67,3 +68,4 @@ And, the following queries can be hit (for LUIS):
   <li>What is the sigil of house greyjoy?</li>
   <li>whose sigil displays stag?</li>
   </ol>
+</p>
