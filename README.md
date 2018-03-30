@@ -51,3 +51,19 @@ First, BOT would reach out to QnA Maker service. If answer is not satisfactory, 
         ..
         ..
 </pre>
+
+Possibly, the following queries can be hit (for QnA Maker):
+<ol>
+  <li>Who was known as the Beggar King?</li>
+		<li>What are some of Daenerys Targaryen's nicknames?</li>
+		<li>Who is Lady Stoneheart?</li>
+		<li>Lady Stoneheart?</li>
+</ol>
+
+And, the following queries can be hit (for LUIS):
+<ol>
+  <li>What house does Arya belong to?</li>
+		<li>What house does Tyrion belong to?</li>
+  <li>What is the sigil of house greyjoy?</li>
+  <li>whose sigil displays stag?</li>
+  </ol>
